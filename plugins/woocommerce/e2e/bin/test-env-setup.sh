@@ -20,3 +20,4 @@ wp-env run tests-cli "wp user create customer customer@woocommercecoree2etestsui
 
 echo -e 'Update Blog Name \n'
 wp-env run tests-cli 'wp option update blogname "WooCommerce Core E2E Test Suite"'
+
