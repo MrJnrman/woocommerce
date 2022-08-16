@@ -65,6 +65,7 @@ jobs:
                       plugins/woocommerce/e2e/allure-report
                   if-no-files-found: ignore
                   retention-days: 5
+                  
 
     api-tests-run:
         name: Runs API tests.
