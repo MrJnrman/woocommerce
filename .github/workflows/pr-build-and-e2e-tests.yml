@@ -66,6 +66,7 @@ jobs:
                   if-no-files-found: ignore
                   retention-days: 5
 
+
     api-tests-run:
         name: Runs API tests.
         runs-on: ubuntu-20.04
@@ -206,6 +207,7 @@ jobs:
                   issue-number: ${{ github.event.pull_request.number }}
                   body: ${{ steps.prepare-test-summary.outputs.result }}
                   edit-mode: replace
+                  
 
     publish-test-reports:
         name: Publish test reports
